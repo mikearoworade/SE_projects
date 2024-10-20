@@ -1,5 +1,5 @@
 # DevOps
-This focuses on Developing and Operations
+This focuses on Development and Operations
 - Bash Scripting
 - Networking
 - Regular Expression
