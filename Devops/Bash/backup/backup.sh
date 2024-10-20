@@ -28,7 +28,7 @@ fi
 echo "Deleting backups older than $RETENTION_DAYS days..."
 find "$BACKUP_DIR" -type f -name "*.tar.gz" -mtime +$RETENTION_DAYS -exec rm {} \;
 
-# CHeck if old backups were deleted successfully
+# Check if old backups were deleted successfully
 if [ $? -eq 0 ]; then
 	echo "Old backups deleted successfully."
 else
