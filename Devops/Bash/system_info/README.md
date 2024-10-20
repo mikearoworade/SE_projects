@@ -10,11 +10,18 @@ You can run this script anytime to get an overview of your system current state.
 - List the users currently Logged-in
 - Show network information (IP addresses, hostname)
 
-### Skill
+## Skill
 - uptime
 - df
 - free
 - top
 - who
-- ifconfig/ip
+- ifconfig/ip and ip -4 addr show
 
+## Usage
+```
+$ sudo touch /var/log/system-info.log
+$ sudo chmod 777 /var/log/system-info.log
+$ chmod +x enhanced-system-info.sh
+$ ./enhanced-system-info.sh
+```
